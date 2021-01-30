@@ -1,0 +1,15 @@
+###
+GET http://localhost:3000/userdata
+Content-Type: application/json
+
+###
+POST  http://localhost:3000/userdata
+Content-Type: application/json
+
+{
+
+    "username" : "Ryzenpro",
+    "email" : "Ryzenpro@rmake.id",
+    "avatar" : "https://picsum.photos/seed/182/300"
+
+}
